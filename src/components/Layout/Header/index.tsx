@@ -4,6 +4,7 @@ import traveloLogo from "public/assets/travelo-logo-header.png";
 import Container from "components/Container";
 import Search from "./Search";
 import Nav from "./Nav";
+import Button from "components/Button";
 
 export default function Header() {
     return (
@@ -14,8 +15,9 @@ export default function Header() {
                         <Image src={traveloLogo} alt="Travelo Logo" placeholder="blur" height="48" width="182" />
                         <Search />
                     </div>
-                    <div className="flex">
+                    <div className="flex gap-5">
                         <Nav />
+                        <Button className="w-[190px]">Masuk</Button>
                     </div>
                 </div>
             </Container>
