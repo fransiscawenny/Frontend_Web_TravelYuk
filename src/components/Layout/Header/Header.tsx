@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import traveloLogo from "public/assets/travelo-logo-header.png";
-import Container from "components/Container";
-import Search from "./Search";
-import Nav from "./Nav";
-import Button from "components/Button";
+import Container from "components/Container/Container";
+import Search from "./Search/Search";
+import Nav from "./Nav/Nav";
+import Button from "components/Button/Button";
 
 export default function Header() {
     return (

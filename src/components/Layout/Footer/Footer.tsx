@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Container from "components/Container";
+import Container from "components/Container/Container";
 import Image from "next/image";
 import traveloLogo from "public/assets/travelo-logo-footer.png";
-import FooterInfo from "./FooterInfo";
+import FooterInfo from "./FooterInfo/FooterInfo";
 
 export default function Footer() {
     return (
