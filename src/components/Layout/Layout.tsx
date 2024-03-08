@@ -4,14 +4,15 @@ import Footer from "./Footer/Footer";
 
 type Props = {
     children: ReactNode;
+    noFooter?: boolean;
 };
 
-export default function Layout({ children }: Props) {
+export default function Layout({ children, noFooter }: Props) {
     return (
         <>
             <Header />
             {children}
-            <Footer />
+            {!noFooter && <Footer />}
         </>
     );
 }
